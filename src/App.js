@@ -15,7 +15,7 @@ function App() {
                 {/* <img src={birdhead} className="App-logo" alt="logo" /> */}
                 <br />
                 <br />
-                <p>김태원 바보</p>
+                <p>CI 테스트</p>
                 {/* <a
                     className="App-link"
                     href="https://reactjs.org"
