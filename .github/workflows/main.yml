@@ -39,7 +39,7 @@ jobs:
             - name: Build
               run: yarn run build
 
-            Deploy
+            # Deploy
             - name: Deploy
               uses: yarn deploy
               # uses: peaceiris/actions-gh-pages@v3
