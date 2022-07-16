@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 const StyledDiv = styled.div`
     font-size: ${({ theme }) => theme.fontSizes.xxxl};
-    color: red;
 `;
 
 function Title() {
+    const [title, setTitle] = useState(1);
+    useEffect(() => {
+        setInterval(() => {
+            setTitle(title + 1);
+        }, 1000);
+    });
     return (
         <>
-            <StyledDiv>title</StyledDiv>
+            <StyledDiv>{title}</StyledDiv>
         </>
     );
 }
