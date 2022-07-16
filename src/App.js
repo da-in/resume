@@ -16,14 +16,14 @@ function App() {
                 <br />
                 <br />
                 <p>김태원 바보</p>
-                <a
+                {/* <a
                     className="App-link"
                     href="https://reactjs.org"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     Learn React
-                </a>
+                </a> */}
             </header>
         </div>
     );
