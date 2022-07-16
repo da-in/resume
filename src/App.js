@@ -1,31 +1,22 @@
 // import logo from './logo.svg';
 import './App.css';
-import birdhead from './assets/birdhead.jpg';
+import { ThemeProvider } from 'styled-components';
+import theme from './theme';
+import ContactScreen from './screens/ContactScreen';
+import MainScreen from './screens/MainScreens';
+import ProjectScreen from './screens/ProjectScreen';
+import SkillScreen from './screens/SkillScreen';
+import TimelineScreen from './screens/TimelineScreen';
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img
-                    src={birdhead}
-                    style={{ width: 300, height: 'auto' }}
-                    className="App-logo"
-                    alt="birdhead"
-                />
-                {/* <img src={birdhead} className="App-logo" alt="logo" /> */}
-                <br />
-                <br />
-                <p>CI 테스트</p>
-                {/* <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a> */}
-            </header>
-        </div>
+        <ThemeProvider theme={theme}>
+            <MainScreen />
+            <SkillScreen />
+            <TimelineScreen />
+            <ProjectScreen />
+            <ContactScreen />
+        </ThemeProvider>
     );
 }
 
