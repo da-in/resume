@@ -1,11 +1,12 @@
 import React from 'react';
+import { MainContainer } from '../components/Containers';
 import Title from '../components/Title';
 
 function MainScreen() {
     return (
-        <div>
+        <MainContainer>
             <Title />
-        </div>
+        </MainContainer>
     );
 }
 

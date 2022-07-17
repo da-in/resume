@@ -1,20 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-const StyledDiv = styled.div`
-    font-size: ${({ theme }) => theme.fontSizes.xxxl};
+const TitleDiv = styled.div`
+    font-size: ${({ theme }) => theme.fontSizes.titleSize};
 `;
 
+const TEXT = ['최다인', 'Choi Da-in', '崔多仁', 'Айсулу'];
+// const SPEED = 100;
+let i = 0;
+
 function Title() {
-    const [title, setTitle] = useState(1);
+    const [title, setTitle] = useState('');
+    // const wait = () => {};
+    // const type = () => {};
+    // const remove = () => {};
     useEffect(() => {
-        setInterval(() => {
-            setTitle(title + 1);
-        }, 1000);
-    });
+        setTitle(TEXT[0]);
+        // await type();
+        // await wait();
+        // await remove();
+        // await wait();
+    }, []);
+
     return (
         <>
-            <StyledDiv>{title}</StyledDiv>
+            <TitleDiv>{title}</TitleDiv>
         </>
     );
 }
