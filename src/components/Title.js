@@ -7,7 +7,7 @@ const TitleDiv = styled.div`
 
 const TEXT = ['최다인', 'Choi Da-in', '崔多仁', 'Айсулу'];
 // const SPEED = 100;
-let i = 0;
+// let i = 0;
 
 function Title() {
     const [title, setTitle] = useState('');
