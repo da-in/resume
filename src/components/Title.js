@@ -15,7 +15,7 @@ function Title() {
     // const type = () => {};
     // const remove = () => {};
     useEffect(() => {
-        setTitle(TEXT[0]);
+        setTitle(TEXT[2]);
         // await type();
         // await wait();
         // await remove();
