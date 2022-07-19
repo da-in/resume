@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 
 const TitleDiv = styled.div`
@@ -6,25 +6,23 @@ const TitleDiv = styled.div`
 `;
 
 const TEXT = ['최다인', 'Choi Da-in', '崔多仁', 'Айсулу'];
-// const SPEED = 100;
-// let i = 0;
 
 function Title() {
-    const [title, setTitle] = useState('');
-    // const wait = () => {};
-    // const type = () => {};
-    // const remove = () => {};
+    const [title, setTitle] = useState(0);
+    const index = useRef(0);
     useEffect(() => {
-        setTitle(TEXT[2]);
-        // await type();
-        // await wait();
-        // await remove();
-        // await wait();
+        const loop = setInterval(() => {
+            index.current += 1;
+            setTitle(index.current);
+            if (index.current === 10) {
+                clearInterval(loop);
+            }
+        }, 1500);
     }, []);
 
     return (
         <>
-            <TitleDiv>{title}</TitleDiv>
+            <TitleDiv>{TEXT[title % 4]}</TitleDiv>
         </>
     );
 }
