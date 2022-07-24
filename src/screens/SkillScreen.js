@@ -1,9 +1,10 @@
 import React from 'react';
+import WhiteBlock from '../components/WhiteBlock';
 
 function SkillScreen() {
     return (
         <>
-            <div>SkillScreen</div>
+            <WhiteBlock>hello</WhiteBlock>
         </>
     );
 }
