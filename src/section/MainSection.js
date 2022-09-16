@@ -12,6 +12,14 @@ const ProfileImgContainer = styled.div`
     display: flex;
     justify-content: center;
 `;
+
+const Block = styled.div`
+    width: 50%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+`;
+
 const Row = styled.div`
     display: flex;
     flex-direction: row;
@@ -32,12 +40,13 @@ function MainSection() {
             <div
                 style={{
                     display: 'flex',
+                    flexWrap: 'wrap',
                     width: '100%',
                     flexDirection: 'row',
                     marginTop: '20px',
                 }}
             >
-                <div style={{ width: '50%' }}>
+                <Block>
                     <Row>
                         <div style={{ fontWeight: '700' }}>Univ</div>
                         <div>Soongsil University</div>
@@ -56,13 +65,15 @@ function MainSection() {
                         <div style={{ fontWeight: '700' }}>SNS</div>
                         <div>Instagram dain.py</div>
                     </Row>
-                </div>
-                <a style={{ width: '50%' }} href="https://da-in.github.io/">
-                    <WhiteBlockContainer>
-                        <div>개발 기록 블로그</div>
-                        <div>https://da-in.github.io</div>
-                    </WhiteBlockContainer>
-                </a>
+                </Block>
+                <Block>
+                    <a href="https://da-in.github.io/">
+                        <WhiteBlockContainer>
+                            <div>개발 기록 블로그</div>
+                            <div>https://da-in.github.io</div>
+                        </WhiteBlockContainer>
+                    </a>
+                </Block>
             </div>
         </MainContainer>
     );
