@@ -7,7 +7,7 @@ const fontSizes = {
     xl: '20px',
     xxl: '22px',
     xxxl: '24px',
-    titleSize: '50px',
+    title: '36px',
 };
 
 const theme = {

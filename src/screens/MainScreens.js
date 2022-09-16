@@ -1,11 +1,12 @@
 import React from 'react';
 import { MainContainer } from '../components/Containers';
-import Title from '../components/Title';
+import TypeTitle from '../components/TypeTitle';
 
 function MainScreen() {
     return (
         <MainContainer>
-            <Title />
+            <TypeTitle />
+            <div>안녕하세요! 프론트엔드 개발자 최다인입니다 🙂</div>
         </MainContainer>
     );
 }
