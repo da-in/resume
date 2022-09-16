@@ -1,5 +1,5 @@
 import React from 'react';
-function TimelineScreen() {
+function TimelineSection() {
     return (
         <>
             <div>TimelineScreen</div>
@@ -7,4 +7,4 @@ function TimelineScreen() {
     );
 }
 
-export default TimelineScreen;
+export default TimelineSection;

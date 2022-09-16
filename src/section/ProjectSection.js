@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProjectScreen() {
+function ProjectSection() {
     return (
         <>
             <div>ProjectScreen</div>
@@ -8,4 +8,4 @@ function ProjectScreen() {
     );
 }
 
-export default ProjectScreen;
+export default ProjectSection;
