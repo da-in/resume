@@ -3,6 +3,11 @@ import { MainContainer, WhiteBlockContainer } from '../components/Containers';
 import TypeTitle from '../components/TypeTitle';
 import profile from '../assets/profile.png';
 import styled from 'styled-components';
+import MarkdownRenderer from '../components/MarkdownRenderer';
+
+const introduce = `### Hi there 👋
+My name is **da-in**, major in **computer science**💻 since 2017 at **Soongsil University** in Seoul, South Korea.  
+안녕하세요! 매일 꾸준히 성장하는 프론트엔드 개발자 **최다인**입니다. 🙂`;
 
 const ProfileImgContainer = styled.div`
     width: 100px;
@@ -20,11 +25,6 @@ const Block = styled.div`
     }
 `;
 
-const Row = styled.div`
-    display: flex;
-    flex-direction: row;
-`;
-
 function MainSection() {
     return (
         <MainContainer>
@@ -33,9 +33,8 @@ function MainSection() {
             <ProfileImgContainer>
                 <img src={profile} height="100%" alt="profile" />
             </ProfileImgContainer>
-            <div>
-                안녕하세요! 무럭무럭 자라는 프론트엔드 새싹 개발자 최다인입니다
-                🙂
+            <div style={{ textAlign: 'center' }}>
+                <MarkdownRenderer>{introduce}</MarkdownRenderer>
             </div>
             <div
                 style={{
@@ -47,32 +46,32 @@ function MainSection() {
                 }}
             >
                 <Block>
-                    <Row>
-                        <div style={{ fontWeight: '700' }}>Univ</div>
-                        <div>Soongsil University</div>
-                    </Row>
-                    <Row>
-                        <div style={{ fontWeight: '700' }}>mail</div>
-                        <div>talown@naver.com</div>
-                    </Row>
-                    <Row>
-                        <div style={{ fontWeight: '700' }}>Github</div>
-                        <a href="https://github.com/da-in">
-                            https://github.com/da-in
-                        </a>
-                    </Row>
-                    <Row>
-                        <div style={{ fontWeight: '700' }}>SNS</div>
-                        <div>Instagram dain.py</div>
-                    </Row>
+                    <table>
+                        <tr>
+                            <th>Univ</th>
+                            <td>Soongsil University</td>
+                        </tr>
+                        <tr>
+                            <th>Mail</th>
+                            <td>talown@naver.com</td>
+                        </tr>
+                        <tr>
+                            <th>Github</th>
+                            <td>https://github.com/da-in</td>
+                        </tr>
+                        <tr>
+                            <th>Instagram</th>
+                            <td>@dain.py</td>
+                        </tr>
+                    </table>
                 </Block>
                 <Block>
-                    <a href="https://da-in.github.io/">
-                        <WhiteBlockContainer>
-                            <div>개발 기록 블로그</div>
+                    <WhiteBlockContainer>
+                        <div>개발 기록 블로그</div>
+                        <a href="https://da-in.github.io/">
                             <div>https://da-in.github.io</div>
-                        </WhiteBlockContainer>
-                    </a>
+                        </a>
+                    </WhiteBlockContainer>
                 </Block>
             </div>
         </MainContainer>

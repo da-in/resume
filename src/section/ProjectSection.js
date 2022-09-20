@@ -1,12 +1,21 @@
 import React from 'react';
+import { MainContainer } from '../components/Containers';
 import MarkdownRenderer from '../components/MarkdownRenderer';
+
+const markdown = `
+  # title
+  ### subtitle
+  일반 텍스트 입니다
+  \`\`\`
+  code block
+  \`\`\`
+`;
 
 function ProjectSection() {
     return (
-        <>
-            <div>ProjectScreen</div>
-            <MarkdownRenderer />
-        </>
+        <MainContainer>
+            <MarkdownRenderer>{markdown}</MarkdownRenderer>
+        </MainContainer>
     );
 }
 
