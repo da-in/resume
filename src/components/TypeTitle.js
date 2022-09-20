@@ -4,11 +4,13 @@ import styled from 'styled-components';
 const TitleDiv = styled.div`
     font-size: ${({ theme }) => theme.fontSizes.title};
     min-height: 60px;
+    font-weight: 700;
+    color: rgb(220, 220, 220);
 `;
 
 const TEXT = [
     '안녕하세요. 프론트엔드 개발자 최다인입니다. ',
-    '프론트엔드 개발자라면! ',
+    '프론트엔드 개발자라면!!! ',
     '포트폴리오 정도는 내 손으로 만들어봐야지 라는 생각을 담아  ',
     '개발중인 페이지 입니다 :) ',
 ];

@@ -1,20 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MainContainer } from '../components/Containers';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 
-const markdown = `
-  # title
-  ### subtitle
-  일반 텍스트 입니다
-  \`\`\`
-  code block
-  \`\`\`
-`;
-
 function ProjectSection() {
+    const markdown = require('../markdown/project.md');
+    const [project, setProject] = useState('');
+
+    fetch(markdown)
+        .then((response) => {
+            return response.text();
+        })
+        .then((text) => setProject(text));
+
     return (
         <MainContainer>
-            <MarkdownRenderer>{markdown}</MarkdownRenderer>
+            <MarkdownRenderer>{project}</MarkdownRenderer>
         </MainContainer>
     );
 }
