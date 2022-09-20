@@ -10,7 +10,7 @@
 [![](https://img.shields.io/badge/bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)]()
 [![](https://img.shields.io/badge/linux-FCC624?style=flat-square&logo=linux&logoColor=black)]()
 [![](https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white)]()
-[![](https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white")]()
+[![](https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white)]()
 
 Please contact me in the following way.
 
