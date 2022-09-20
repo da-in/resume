@@ -14,7 +14,9 @@ function ProjectSection() {
 
     return (
         <MainContainer>
-            <MarkdownRenderer>{project}</MarkdownRenderer>
+            <div style={{ textAlign: 'left', width: '100%' }}>
+                <MarkdownRenderer>{project}</MarkdownRenderer>
+            </div>
         </MainContainer>
     );
 }
