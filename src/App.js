@@ -2,18 +2,17 @@
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import theme from './theme';
+import { MainContainer } from './components/Containers';
+import Navigation from './components/Navigation';
 import MainSection from './section/MainSection';
-import ProjectSection from './section/ProjectSection';
-import SkillSection from './section/SkillSection';
-import TimelineSection from './section/TimelineSection';
 
 function App() {
     return (
         <ThemeProvider theme={theme}>
-            <MainSection />
-            <SkillSection />
-            <ProjectSection />
-            <TimelineSection />
+            <MainContainer>
+                <Navigation />
+                <MainSection />
+            </MainContainer>
         </ThemeProvider>
     );
 }
