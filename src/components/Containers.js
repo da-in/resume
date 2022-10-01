@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// Contain Navigation & MainSection
 export const MainContainer = styled.div`
     display: flex;
     flex-direction: row;
@@ -11,11 +12,10 @@ export const MainContainer = styled.div`
     }
 `;
 
-export const WhiteBlockContainer = styled.div`
+// MainSection Container
+export const MainSectionContainer = styled.div`
     display: flex;
     flex-direction: column;
-    background-color: #f6f8fa;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    align-items: 'flex-start';
+    gap: 30px;
 `;

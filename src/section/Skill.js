@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import { MainContainer } from '../components/Containers';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 
-// [![da-in's GitHub stats](https://github-readme-stats.vercel.app/api?username=da-in)](https://github.com/anuraghazra/github-readme-stats)
-// [![Solved.ac profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=talown)](https://solved.ac/talown)
-
-function SkillSection() {
+function Skill() {
     const markdown = require('../markdown/skill.md');
     const [skill, setSkill] = useState('');
 
@@ -27,4 +24,4 @@ function SkillSection() {
     );
 }
 
-export default SkillSection;
+export default Skill;
