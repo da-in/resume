@@ -2,7 +2,11 @@
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import theme from './theme';
-import { MainContainer, MainSectionContainer } from './components/Containers';
+import {
+    MainContainer,
+    MainSectionContainer,
+    Margin,
+} from './components/Containers';
 import Navigation from './components/Navigation';
 import Title from './section/Title';
 import Intro from './section/Intro';
@@ -15,18 +19,20 @@ import Footer from './section/Footer';
 function App() {
     return (
         <ThemeProvider theme={theme}>
-            <MainContainer>
-                <Navigation />
-                <MainSectionContainer>
-                    <Title />
-                    <Intro />
-                    <Contact />
-                    <Skill />
-                    <Project />
-                    <Timeline />
-                </MainSectionContainer>
-            </MainContainer>
-            <Footer />
+            <Margin>
+                <MainContainer>
+                    <Navigation />
+                    <MainSectionContainer>
+                        <Title />
+                        <Intro />
+                        <Contact />
+                        <Skill />
+                        <Project />
+                        <Timeline />
+                    </MainSectionContainer>
+                </MainContainer>
+                <Footer />
+            </Margin>
         </ThemeProvider>
     );
 }
