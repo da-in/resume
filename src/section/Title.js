@@ -25,9 +25,6 @@ const animation = keyframes`
   0% {
     stroke-dashoffset: 450;
   }
-  /* 50% {
-    stroke-dashoffset: 0;
-  } */
   100%{
     stroke-dashoffset: 0;
   }
@@ -78,6 +75,7 @@ const StyledSignSVG = styled.svg`
 function Sign() {
     return (
         <StyledSignSVG
+            width="120"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 680.1 373"
         >
