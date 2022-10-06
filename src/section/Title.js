@@ -19,14 +19,23 @@ const SignContainer = styled.div`
 `;
 
 // 속도
-const v = 0.5;
+const v = 0.7;
 
 const animation = keyframes`
   0% {
     stroke-dashoffset: 450;
   }
-  100%{
+  6.25%{
     stroke-dashoffset: 0;
+  }
+  56.25%{
+    stroke-dashoffset: 0;
+  }
+  62.5%{
+    stroke-dashoffset: 450;
+  }
+  100%{
+    stroke-dashoffset: 450;
   }
 `;
 
@@ -39,35 +48,35 @@ const StyledSignSVG = styled.svg`
     stroke-dasharray: 450;
     stroke-dashoffset: 450;
     path:nth-child(1) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${0 * v}s;
     }
     path:nth-child(2) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${1 * v}s;
     }
     path:nth-child(3) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${2 * v}s;
     }
     path:nth-child(4) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${3 * v}s;
     }
     path:nth-child(5) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${4 * v}s;
     }
     path:nth-child(6) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${5 * v}s;
     }
     path:nth-child(7) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${6 * v}s;
     }
     path:nth-child(8) {
-        animation: ${animation} ${1 * v}s linear forwards;
+        animation: ${animation} ${16 * v}s linear infinite;
         animation-delay: ${7 * v}s;
     }
 `;
