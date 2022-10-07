@@ -15,20 +15,23 @@ import Skill from './section/Skill';
 import Project from './section/Project';
 import Timeline from './section/Timeline';
 import Footer from './section/Footer';
+import { useRef } from 'react';
 
 function App() {
+    const scrollRef = useRef([]);
+
     return (
         <ThemeProvider theme={theme}>
             <Margin>
                 <MainContainer>
-                    <Navigation />
+                    <Navigation ref={scrollRef} />
                     <MainSectionContainer>
-                        <Title />
+                        <Title ref={scrollRef} />
                         <Intro />
-                        <Contact />
-                        <Skill />
-                        <Project />
-                        <Timeline />
+                        <Contact ref={scrollRef} />
+                        <Skill ref={scrollRef} />
+                        <Project ref={scrollRef} />
+                        <Timeline ref={scrollRef} />
                     </MainSectionContainer>
                 </MainContainer>
                 <Footer />

@@ -22,4 +22,5 @@ export const MainSectionContainer = styled.div`
     flex-direction: column;
     align-items: 'flex-start';
     gap: 30px;
+    margin-left: 260px;
 `;

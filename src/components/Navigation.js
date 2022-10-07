@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 import sign from '../assets/choidain.svg';
+import NavButton from './NavButton';
 
 const NavTitle = styled.div`
     display: flex;
@@ -9,26 +10,27 @@ const NavTitle = styled.div`
     font-size: 20px;
 `;
 
-function Navigation() {
+const Navigation = forwardRef((props, scrollRef) => {
     return (
         <div
             style={{
                 display: 'flex',
                 flexDirection: 'column',
-                // minWidth 추후 제거
                 minWidth: '180px',
+                position: 'fixed',
             }}
         >
             <NavTitle>
                 <img src={sign} alt="sign" width="70px" />
                 <div>포트폴리오</div>
             </NavTitle>
-            <div className="handwriting">Contact</div>
-            <div className="handwriting">Skill</div>
-            <div className="handwriting">Project</div>
-            <div className="handwriting">Timeline</div>
+            <NavButton index="0" title="Intro" ref={scrollRef} />
+            <NavButton index="1" title="Contact" ref={scrollRef} />
+            <NavButton index="2" title="Skill" ref={scrollRef} />
+            <NavButton index="3" title="Project" ref={scrollRef} />
+            <NavButton index="4" title="Timeline" ref={scrollRef} />
         </div>
     );
-}
+});
 
 export default Navigation;
