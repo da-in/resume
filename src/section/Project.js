@@ -15,9 +15,7 @@ function Project() {
     return (
         <>
             <SectionTitle>Project</SectionTitle>
-            <div style={{ textAlign: 'left', width: '100%' }}>
-                <MarkdownRenderer>{project}</MarkdownRenderer>
-            </div>
+            <MarkdownRenderer>{project}</MarkdownRenderer>
         </>
     );
 }
