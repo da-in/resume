@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MainContainer } from '../components/Containers';
 import MarkdownRenderer from '../components/MarkdownRenderer';
+import SectionTitle from '../components/SectionTitle';
 
 function Project() {
     const markdown = require('../markdown/project.md');
@@ -13,11 +13,12 @@ function Project() {
         .then((text) => setProject(text));
 
     return (
-        <MainContainer>
+        <>
+            <SectionTitle>Project</SectionTitle>
             <div style={{ textAlign: 'left', width: '100%' }}>
                 <MarkdownRenderer>{project}</MarkdownRenderer>
             </div>
-        </MainContainer>
+        </>
     );
 }
 

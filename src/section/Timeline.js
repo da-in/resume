@@ -1,8 +1,9 @@
 import React from 'react';
+import SectionTitle from '../components/SectionTitle';
 function Timeline() {
     return (
         <>
-            <div>TimelineScreen</div>
+            <SectionTitle>Timeline</SectionTitle>
         </>
     );
 }

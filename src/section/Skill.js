@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MainContainer } from '../components/Containers';
 import MarkdownRenderer from '../components/MarkdownRenderer';
+import SectionTitle from '../components/SectionTitle';
 
 function Skill() {
     const markdown = require('../markdown/skill.md');
@@ -12,15 +12,12 @@ function Skill() {
         })
         .then((text) => setSkill(text));
     return (
-        <div
-            style={{
-                backgroundColor: '#f6f8fa',
-            }}
-        >
-            <MainContainer>
+        <>
+            <SectionTitle>Skill</SectionTitle>
+            <div>
                 <MarkdownRenderer>{skill}</MarkdownRenderer>
-            </MainContainer>
-        </div>
+            </div>
+        </>
     );
 }
 

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 // Portfolio Page Margin
 export const Margin = styled.div`
-    margin: 0 15% 0 15%;
+    margin: 0 20% 0 20%;
     @media screen and (max-width: 768px) {
         margin: 0 8% 0 8%;
     }
