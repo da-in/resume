@@ -16,15 +16,36 @@ import Project from './section/Project';
 import Timeline from './section/Timeline';
 import Footer from './section/Footer';
 import { useRef } from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 function App() {
+    const [currentIndex, setCurrentIndex] = useState(new Set([0]));
     const scrollRef = useRef([]);
+    const observeRef = (ref, index) => {
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.intersectionRatio > 0) {
+                    setCurrentIndex((prev) => new Set([...prev, index]));
+                } else {
+                    setCurrentIndex(
+                        (prev) => new Set([...prev].filter((x) => x !== index))
+                    );
+                }
+            });
+        });
+        io.observe(ref);
+    };
+
+    useEffect(() => {
+        scrollRef.current.forEach(observeRef);
+    }, []);
 
     return (
         <ThemeProvider theme={theme}>
             <Margin>
                 <MainContainer>
-                    <Navigation ref={scrollRef} />
+                    <Navigation ref={scrollRef} index={currentIndex} />
                     <MainSectionContainer>
                         <Title ref={scrollRef} />
                         <Intro />

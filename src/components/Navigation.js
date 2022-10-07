@@ -24,11 +24,36 @@ const Navigation = forwardRef((props, scrollRef) => {
                 <img src={sign} alt="sign" width="70px" />
                 <div>포트폴리오</div>
             </NavTitle>
-            <NavButton index="0" title="Intro" ref={scrollRef} />
-            <NavButton index="1" title="Contact" ref={scrollRef} />
-            <NavButton index="2" title="Skill" ref={scrollRef} />
-            <NavButton index="3" title="Project" ref={scrollRef} />
-            <NavButton index="4" title="Timeline" ref={scrollRef} />
+            <NavButton
+                index={0}
+                title="Intro"
+                ref={scrollRef}
+                cur={props.index}
+            />
+            <NavButton
+                index={1}
+                title="Contact"
+                ref={scrollRef}
+                cur={props.index}
+            />
+            <NavButton
+                index={2}
+                title="Skill"
+                ref={scrollRef}
+                cur={props.index}
+            />
+            <NavButton
+                index={3}
+                title="Project"
+                ref={scrollRef}
+                cur={props.index}
+            />
+            <NavButton
+                index={4}
+                title="Timeline"
+                ref={scrollRef}
+                cur={props.index}
+            />
         </div>
     );
 });

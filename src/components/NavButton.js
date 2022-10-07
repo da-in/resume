@@ -12,6 +12,7 @@ const NavButtonBlock = styled.button`
 `;
 
 const NavButton = forwardRef((props, scrollRef) => {
+    const isCurrent = props.index === Math.min(...props.cur);
     return (
         <NavButtonBlock
             onClick={() =>
@@ -20,10 +21,17 @@ const NavButton = forwardRef((props, scrollRef) => {
                 })
             }
         >
-            <p className="handwriting" style={{ color: 'rgba(0,0,0,0.3)' }}>
+            <p
+                className="handwriting"
+                style={
+                    isCurrent
+                        ? { color: 'black' }
+                        : { color: 'rgba(0,0,0,0.3)' }
+                }
+            >
                 {props.title}
             </p>
-            <MdWest size={20} />
+            {isCurrent ? <MdWest size={20} /> : <></>}
         </NavButtonBlock>
     );
 });
