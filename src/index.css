@@ -21,8 +21,20 @@ table, th, td {
   text-align: left;
 }
 
+th {
+  font-weight: 500;
+  width: 100px;
+}
+
 p {
   margin: 0%;
+}
+
+a {
+  color: black;
+}
+a:hover{
+  color: gray;
 }
 
 .handwriting {
