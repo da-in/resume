@@ -1,6 +1,6 @@
 # Project
 
-## 1. Pool
+### 1. Pool
 
 _✉️ Push 알림 기반의 메세지 서비스_
 
@@ -30,12 +30,12 @@ Firebase
 
 <br/>
 
-## 2. Maily
+### 2. Maily
 
 ☘️ 메일 삭제를 통한 디지털 탄소 절감 서비스
 
 <br/>
 
-## 3. subtitle
+### 3. subtitle
 
 일반 텍스트 입니다
