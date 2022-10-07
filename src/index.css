@@ -26,6 +26,12 @@ th {
   width: 100px;
 }
 
+td {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
 p {
   margin: 0%;
 }

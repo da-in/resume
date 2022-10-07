@@ -1,22 +1,55 @@
-import React, { useState } from 'react';
-import MarkdownRenderer from '../components/MarkdownRenderer';
+import React from 'react';
 import SectionTitle from '../components/SectionTitle';
+import Tag from '../components/Tag';
 
 function Skill() {
-    const markdown = require('../markdown/skill.md');
-    const [skill, setSkill] = useState('');
-
-    fetch(markdown)
-        .then((response) => {
-            return response.text();
-        })
-        .then((text) => setSkill(text));
     return (
         <>
             <SectionTitle>Skill</SectionTitle>
-            <div>
-                <MarkdownRenderer>{skill}</MarkdownRenderer>
-            </div>
+            <table>
+                <tr>
+                    <th>Language</th>
+                    <td>
+                        <Tag>Typescript</Tag>
+                        <Tag>Javascript</Tag>
+                        <Tag>Python</Tag>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Frontend</th>
+                    <td>
+                        <Tag>React</Tag>
+                        <Tag>React Native</Tag>
+                        <Tag>HTML</Tag>
+                        <Tag>CSS</Tag>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BackEnd</th>
+                    <td>
+                        <Tag>Django</Tag>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Design</th>
+                    <td>
+                        <Tag>Figma</Tag>
+                        <Tag>AdobeXD</Tag>
+                        <Tag>Zeplin</Tag>
+                        <Tag>Photoshop</Tag>
+                        <Tag>illustrator</Tag>
+                        <Tag>PremerePro</Tag>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Tools</th>
+                    <td>
+                        <Tag>Git</Tag>
+                        <Tag>Asana</Tag>
+                        <Tag>Slack</Tag>
+                    </td>
+                </tr>
+            </table>
         </>
     );
 }
