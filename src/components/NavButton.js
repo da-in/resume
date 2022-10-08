@@ -31,7 +31,7 @@ const NavButton = forwardRef((props, scrollRef) => {
             >
                 {props.title}
             </p>
-            {isCurrent ? <MdWest size={20} /> : <></>}
+            {isCurrent ? <MdWest size={20} color="black" /> : <></>}
         </NavButtonBlock>
     );
 });
