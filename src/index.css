@@ -51,3 +51,7 @@ a:hover{
   font-family: 'Caveat';
   font-size: 28px;
 }
+
+hr {
+  border: solid 1px #f0f0f0;
+}
