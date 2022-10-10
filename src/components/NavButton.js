@@ -24,8 +24,8 @@ const NavButton = forwardRef((props, scrollRef) => {
                 className="handwriting"
                 style={
                     isCurrent
-                        ? { color: 'black' }
-                        : { color: 'rgba(0,0,0,0.3)' }
+                        ? { color: 'black', fontSize: '28px' }
+                        : { color: 'rgba(0,0,0,0.3)', fontSize: '28px' }
                 }
             >
                 {props.title}

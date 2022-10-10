@@ -8,6 +8,7 @@ function SectionTitle({ children }) {
                 textAlign: 'center',
                 paddingTop: '30px',
                 paddingBottom: '15px',
+                fontSize: '32px',
             }}
         >
             {children}
