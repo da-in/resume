@@ -1,8 +1,8 @@
-import React, { forwardRef, useState } from 'react';
+import React, { useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import SectionTitle from '../components/SectionTitle';
 
-const Timeline = forwardRef((props, scrollRef) => {
+function Timeline({ scrollRef }) {
     const markdown = require('../markdown/timeline.md');
     const [project, setProject] = useState('');
     fetch(markdown)
@@ -16,6 +16,6 @@ const Timeline = forwardRef((props, scrollRef) => {
             <MarkdownRenderer>{project}</MarkdownRenderer>
         </div>
     );
-});
+}
 
 export default Timeline;

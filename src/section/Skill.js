@@ -1,8 +1,8 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import Tag from '../components/Tag';
 
-const Skill = forwardRef((props, scrollRef) => {
+function Skill({ scrollRef }) {
     return (
         <div ref={(cur) => (scrollRef.current[2] = cur)}>
             <SectionTitle>Skill</SectionTitle>
@@ -54,6 +54,6 @@ const Skill = forwardRef((props, scrollRef) => {
             </table>
         </div>
     );
-});
+}
 
 export default Skill;

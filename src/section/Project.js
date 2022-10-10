@@ -1,8 +1,8 @@
-import React, { forwardRef, useState } from 'react';
+import React, { useState } from 'react';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import SectionTitle from '../components/SectionTitle';
 
-const Project = forwardRef((props, scrollRef) => {
+function Project({ scrollRef }) {
     const markdown = require('../markdown/project.md');
     const [project, setProject] = useState('');
     fetch(markdown)
@@ -16,6 +16,6 @@ const Project = forwardRef((props, scrollRef) => {
             <MarkdownRenderer>{project}</MarkdownRenderer>
         </div>
     );
-});
+}
 
 export default Project;

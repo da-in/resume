@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 const TitleContainer = styled.div`
@@ -100,9 +100,15 @@ function Sign() {
     );
 }
 
-const Title = forwardRef((props, scrollRef) => {
+function Title({ scrollRef }) {
     return (
-        <div ref={(cur) => (scrollRef.current[0] = cur)}>
+        <div
+            ref={(cur) => {
+                if (cur) {
+                    scrollRef.current[0] = cur;
+                }
+            }}
+        >
             <TitleContainer>
                 <span>안녕하세요</span>
                 <SignContainer>
@@ -112,5 +118,5 @@ const Title = forwardRef((props, scrollRef) => {
             </TitleContainer>
         </div>
     );
-});
+}
 export default Title;

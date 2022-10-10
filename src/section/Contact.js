@@ -1,9 +1,15 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 
-const Contact = forwardRef((props, scrollRef) => {
+function Contact({ scrollRef }) {
     return (
-        <div ref={(cur) => (scrollRef.current[1] = cur)}>
+        <div
+            ref={(cur) => {
+                if (cur) {
+                    scrollRef.current[1] = cur;
+                }
+            }}
+        >
             <SectionTitle>Contact</SectionTitle>
             <table>
                 <tbody>
@@ -41,6 +47,6 @@ const Contact = forwardRef((props, scrollRef) => {
             </table>
         </div>
     );
-});
+}
 
 export default Contact;
