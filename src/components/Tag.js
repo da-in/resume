@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const TagBlock = styled.div`
     padding: 0px 10px;
-    background: #f3f3f3;
+    background: #f0f0f0;
     border-radius: 50px;
 `;
 

@@ -32,6 +32,10 @@ td {
   padding-bottom: 5px;
 }
 
+mark {
+  background-color: #f0f0f0;
+}
+
 p {
   margin: 0%;
 }
