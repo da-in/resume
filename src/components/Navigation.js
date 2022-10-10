@@ -28,31 +28,31 @@ const Navigation = forwardRef((props, scrollRef) => {
                 index={0}
                 title="Intro"
                 ref={scrollRef}
-                cur={props.index}
+                currentIndex={props.currentIndex}
             />
             <NavButton
                 index={1}
                 title="Contact"
                 ref={scrollRef}
-                cur={props.index}
+                currentIndex={props.currentIndex}
             />
             <NavButton
                 index={2}
                 title="Skill"
                 ref={scrollRef}
-                cur={props.index}
+                currentIndex={props.currentIndex}
             />
             <NavButton
                 index={3}
                 title="Project"
                 ref={scrollRef}
-                cur={props.index}
+                currentIndex={props.currentIndex}
             />
             <NavButton
                 index={4}
                 title="Timeline"
                 ref={scrollRef}
-                cur={props.index}
+                currentIndex={props.currentIndex}
             />
         </div>
     );

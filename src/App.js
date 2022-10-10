@@ -20,8 +20,8 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 function App() {
-    const [currentIndex, setCurrentIndex] = useState(new Set([0]));
     const scrollRef = useRef([]);
+    const [currentIndex, setCurrentIndex] = useState(new Set([0]));
     const observeRef = (ref, index) => {
         const io = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
@@ -45,14 +45,14 @@ function App() {
         <ThemeProvider theme={theme}>
             <Margin>
                 <MainContainer>
-                    <Navigation ref={scrollRef} index={currentIndex} />
+                    <Navigation ref={scrollRef} currentIndex={currentIndex} />
                     <MainSectionContainer>
-                        <Title ref={scrollRef} />
+                        <Title scrollRef={scrollRef} />
                         <Intro />
-                        <Contact ref={scrollRef} />
-                        <Skill ref={scrollRef} />
-                        <Project ref={scrollRef} />
-                        <Timeline ref={scrollRef} />
+                        <Contact scrollRef={scrollRef} />
+                        <Skill scrollRef={scrollRef} />
+                        <Project scrollRef={scrollRef} />
+                        <Timeline scrollRef={scrollRef} />
                     </MainSectionContainer>
                 </MainContainer>
                 <Footer />

@@ -12,15 +12,14 @@ const NavButtonBlock = styled.button`
 `;
 
 const NavButton = forwardRef((props, scrollRef) => {
-    const isCurrent = props.index === Math.min(...props.cur);
+    const isCurrent = props.index === Math.min(...props.currentIndex);
+    const onScroll = () => {
+        scrollRef.current[props.index].scrollIntoView({
+            behavior: 'smooth',
+        });
+    };
     return (
-        <NavButtonBlock
-            onClick={() =>
-                scrollRef.current[props.index].scrollIntoView({
-                    behavior: 'smooth',
-                })
-            }
-        >
+        <NavButtonBlock onClick={onScroll}>
             <p
                 className="handwriting"
                 style={
