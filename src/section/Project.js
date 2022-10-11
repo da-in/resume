@@ -13,12 +13,7 @@ const Subtitle = styled.p`
 const MapProject = (projects) =>
     projects.map((data) => (
         <div key={data.id}>
-            <ProjectBlock
-                title={data.title}
-                date={data.date}
-                markdown={data.md}
-                tag={data.tag}
-            />
+            <ProjectBlock data={data} />
             {data.id !== projects.length ? <hr /> : <></>}
         </div>
     ));

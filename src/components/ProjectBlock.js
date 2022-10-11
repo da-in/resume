@@ -3,9 +3,9 @@ import MarkdownRenderer from './MarkdownRenderer';
 import styles from '../assets/styles';
 import Tag from '../components/Tag';
 
-function ProjectBlock({ title, date, markdown, tag }) {
+function ProjectBlock({ data }) {
     const [project, setProject] = useState('');
-    fetch(markdown)
+    fetch(data.md)
         .then((response) => {
             return response.text();
         })
@@ -20,18 +20,32 @@ function ProjectBlock({ title, date, markdown, tag }) {
         >
             <div style={{ width: '250px' }}>
                 <p style={{ ...styles.fontWeight.bold, fontSize: '18px' }}>
-                    {title}
+                    {data.title}
                 </p>
-                <p>{date}</p>
+                <p style={{ fontSize: '14px', color: 'gray' }}>{data.date}</p>
+                {data.img ? (
+                    <div style={{ padding: '10px 0px' }}>
+                        <img src={data.img} alt={data.title} width="100px" />
+                    </div>
+                ) : (
+                    <></>
+                )}
                 <br />
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-                    {tag?.map((data) => (
-                        <Tag key={data}>{data}</Tag>
-                    ))}
-                </div>
             </div>
             <div style={{ maxWidth: '500px' }}>
                 <MarkdownRenderer>{project}</MarkdownRenderer>
+                <div
+                    style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '10px',
+                        marginTop: '15px',
+                    }}
+                >
+                    {data.tag?.map((data) => (
+                        <Tag key={data}>{data}</Tag>
+                    ))}
+                </div>
             </div>
         </div>
     );
