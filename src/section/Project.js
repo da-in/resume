@@ -12,16 +12,15 @@ const Subtitle = styled.p`
 
 const MapProject = (projects) =>
     projects.map((data) => (
-        <>
+        <div key={data.id}>
             <ProjectBlock
-                key={data.id}
                 title={data.title}
                 date={data.date}
                 markdown={data.md}
                 tag={data.tag}
             />
             {data.id !== projects.length ? <hr /> : <></>}
-        </>
+        </div>
     ));
 
 function Project({ scrollRef }) {
@@ -30,6 +29,7 @@ function Project({ scrollRef }) {
             <SectionTitle>Project</SectionTitle>
             <Subtitle>Work Experience & Projects</Subtitle>
             {MapProject(work)}
+            <br />
             <br />
             <Subtitle>Personal Experience & Projects</Subtitle>
             {MapProject(personal)}

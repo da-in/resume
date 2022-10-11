@@ -26,7 +26,7 @@ function ProjectBlock({ title, date, markdown, tag }) {
                 <br />
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
                     {tag?.map((data) => (
-                        <Tag>{data}</Tag>
+                        <Tag key={data}>{data}</Tag>
                     ))}
                 </div>
             </div>
