@@ -1,4 +1,4 @@
-Push 알림 기반의 브랜드 메세징 서비스
+Push 알림 기반의 브랜드 메세징 서비스 Client 개발
 
 -   React Native로 AOS, iOS, Web 크로스플랫폼 앱 개발
 -   Moblie & Web Publishing
