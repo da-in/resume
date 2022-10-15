@@ -3,6 +3,16 @@ import styled from 'styled-components';
 import sign from '../assets/choidain.svg';
 import NavButton from './NavButton';
 
+const NavContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    position: fixed;
+    @media (max-width: 768px) {
+        display: none;
+    }
+`;
+
 const NavTitle = styled.div`
     display: flex;
     align-items: center;
@@ -12,14 +22,7 @@ const NavTitle = styled.div`
 
 const Navigation = forwardRef((props, scrollRef) => {
     return (
-        <div
-            style={{
-                display: 'flex',
-                flexDirection: 'column',
-                minWidth: '180px',
-                position: 'fixed',
-            }}
-        >
+        <NavContainer>
             <NavTitle>
                 <img src={sign} alt="sign" width="70px" />
                 <div>포트폴리오</div>
@@ -54,7 +57,7 @@ const Navigation = forwardRef((props, scrollRef) => {
                 ref={scrollRef}
                 currentIndex={props.currentIndex}
             />
-        </div>
+        </NavContainer>
     );
 });
 

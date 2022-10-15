@@ -1,16 +1,21 @@
 import React from 'react';
+import styled from 'styled-components';
 import ProfileImg from '../assets/profile.png';
 import styles from '../assets/styles';
 
+const IntroContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+`;
+
 function Intro() {
     return (
-        <div
-            style={{
-                display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'center',
-            }}
-        >
+        <IntroContainer>
             <img
                 src={ProfileImg}
                 alt="profile"
@@ -50,7 +55,7 @@ function Intro() {
                     <mark> 아카펠라</mark>를 합니다.
                 </p>
             </div>
-        </div>
+        </IntroContainer>
     );
 }
 

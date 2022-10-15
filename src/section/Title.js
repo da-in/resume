@@ -9,6 +9,9 @@ const TitleContainer = styled.div`
     font-weight: 100;
     font-size: 36px;
     padding: 20px 0px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 const SignContainer = styled.div`
