@@ -11,19 +11,19 @@ POOL Cross Platform Developer
 숭실대학교 웹/앱 개발 경진대회 개최  
 코드라이언 React PGL (Peer Group Leader)  
 프라임스톤 Python Data Analysis 과외 강사  
-<i class="material-icons" fontsize="10">emoji_events</i>행정안전부 주관 정부혁신제안 끝장개발대회 최우수상  
+<i class="material-icons" style="margin-bottom: -5px">emoji_events</i>행정안전부 주관 정부혁신제안 끝장개발대회 최우수상  
 숭실대학교 교수협의회 장학생  
 한국대학사회봉사협의회 표창  
 서울런 멘토단
 
 ### 2020
 
-광주 인공지능사관학교 1기 선발
-<i class="material-icons" fontsize="10">emoji_events</i>인공지능사관학교 끝장개발대회 해커톤 최우수상  
-<i class="material-icons" fontsize="10">emoji_events</i>인공지능사관학교 우수학생 최우수상 및 수료 (960h)  
-<i class="material-icons" fontsize="10">emoji_events</i>과학기술정보통신부 KISA-신한카드 데이터톤 3위(장려상)  
-<i class="material-icons" fontsize="10">emoji_events</i>한국 문화예술위원회 예술데이터가 바꾸는 세상 해커톤 불꽃상(우수상)  
-<i class="material-icons" fontsize="10">emoji_events</i>30초 통일 광고 공모전 대상
+광주 인공지능사관학교 1기 선발  
+<i class="material-icons" style="margin-bottom: -5px">emoji_events</i>인공지능사관학교 끝장개발대회 해커톤 최우수상  
+<i class="material-icons" style="margin-bottom: -5px">emoji_events</i>인공지능사관학교 우수학생 최우수상 및 수료 (960h)  
+<i class="material-icons" style="margin-bottom: -5px">emoji_events</i>과학기술정보통신부 KISA-신한카드 데이터톤 3위(장려상)  
+<i class="material-icons" style="margin-bottom: -5px">emoji_events</i>한국 문화예술위원회 예술데이터가 바꾸는 세상 해커톤 불꽃상(우수상)  
+<i class="material-icons" style="margin-bottom: -5px">emoji_events</i>30초 통일 광고 공모전 대상
 
 ### 2019
 
