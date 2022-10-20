@@ -52,6 +52,10 @@ a:hover{
   font-family: 'Caveat';
 }
 
+.icons {
+  color: grey;
+}
+
 hr {
   border: solid 1px #f0f0f0;
 }
