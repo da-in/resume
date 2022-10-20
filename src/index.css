@@ -48,14 +48,15 @@ a:hover{
   color: gray;
 }
 
+hr {
+  border: solid 1px #f0f0f0;
+}
+
 .handwriting {
   font-family: 'Caveat';
 }
 
 .icons {
   color: grey;
-}
-
-hr {
-  border: solid 1px #f0f0f0;
+  font-size: 16px;
 }
