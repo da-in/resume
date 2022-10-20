@@ -20,7 +20,7 @@ POOL Cross Platform Developer
 
 광주 인공지능사관학교 1기 선발
 
-<span class="material-icons-round">emoji_events</span>인공지능사관학교 끝장개발대회 해커톤 최우수상  
+<i class="material-icons" fontsize="10">emoji_events</i>인공지능사관학교 끝장개발대회 해커톤 최우수상  
 인공지능사관학교 우수학생 최우수상 및 수료 (960h)  
 과학기술정보통신부 KISA-신한카드 데이터톤 3위(장려상)  
 한국 문화예술위원회 예술데이터가 바꾸는 세상 해커톤 불꽃상(우수상)  
