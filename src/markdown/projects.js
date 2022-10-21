@@ -35,7 +35,7 @@ export const personal = [
         title: '멋쟁이사자처럼',
         date: '2020.10 - 현재',
         md: require('../markdown/project/likelion.md'),
-        tag: ['React ', 'Javascript', 'Python'],
+        tag: ['React ', 'Javascript', 'Python', 'Adobe XD', 'Zeplin'],
         img: require('../assets/likelion.png'),
     },
     {
@@ -51,7 +51,7 @@ export const personal = [
         title: '코띵한 와사비',
         date: '2020.12 - 2022',
         md: require('../markdown/project/wasabi.md'),
-        tag: ['Python'],
+        tag: ['React', 'Adobe XD'],
         img: require('../assets/wasabi.png'),
     },
 ];
