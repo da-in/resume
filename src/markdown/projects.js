@@ -33,7 +33,7 @@ export const personal = [
   {
     id: 3,
     title: '멋쟁이사자처럼',
-    date: '2020.10 - 현재',
+    date: '2020.10 - 2022.12',
     md: require('../markdown/project/likelion.md'),
     tag: ['React ', 'Javascript', 'Python', 'Adobe XD', 'Zeplin'],
     img: require('../assets/likelion.png'),

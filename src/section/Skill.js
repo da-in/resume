@@ -26,20 +26,21 @@ function Skill({ scrollRef }) {
             </td>
           </tr>
           <tr>
-            <th>BackEnd</th>
+            <th>Styling</th>
             <td>
-              <Tag>Django</Tag>
+              <Tag>Emotion</Tag>
+              <Tag>Styled Components</Tag>
             </td>
           </tr>
           <tr>
-            <th>Design</th>
+            <th>UI Design</th>
             <td>
               <Tag>Figma</Tag>
               <Tag>AdobeXD</Tag>
               <Tag>Zeplin</Tag>
               <Tag>Photoshop</Tag>
               <Tag>illustrator</Tag>
-              <Tag>PremerePro</Tag>
+              <Tag>Premere</Tag>
             </td>
           </tr>
           <tr>
