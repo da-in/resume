@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 import { MdWest } from 'react-icons/md';
-import theme from '../theme';
+import theme from '../assets/theme';
 
 const NavButtonBlock = styled.button`
   display: flex;

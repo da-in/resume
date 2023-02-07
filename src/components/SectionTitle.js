@@ -1,13 +1,13 @@
 import React from 'react';
-import theme from '../theme';
+import theme from '../assets/theme';
 import styled from 'styled-components';
 
 const Title = styled.div`
   padding: 20px 0px 20px 0px;
   margin-bottom: 20px;
-  border-bottom: solid 2px;
+  border-bottom: solid 1px;
   font-size: ${theme.font.big};
-  font-weight: 800;
+  font-weight: 500;
 `;
 
 function SectionTitle({ children }) {

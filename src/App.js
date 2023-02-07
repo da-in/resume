@@ -1,5 +1,5 @@
 import { ThemeProvider } from 'styled-components';
-import theme from './theme';
+import theme from './assets/theme';
 import {
   MainContainer,
   MainSectionContainer,
