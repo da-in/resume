@@ -1,6 +1,7 @@
 // import styled from 'styled-components';
 
 const font = {
+  small: '14px',
   plain: '16px',
   medium: '20px',
   big: '28px',
