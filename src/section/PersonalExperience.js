@@ -5,7 +5,7 @@ import { MapProject } from './WorkExperience';
 
 function Project({ scrollRef }) {
   return (
-    <div ref={(cur) => (scrollRef.current[4] = cur)}>
+    <div ref={(cur) => (scrollRef.current[5] = cur)}>
       <SectionTitle>Personal Experience</SectionTitle>
       {MapProject(personal)}
     </div>

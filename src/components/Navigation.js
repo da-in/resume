@@ -37,18 +37,24 @@ const Navigation = forwardRef((props, scrollRef) => {
       />
       <NavButton
         index={3}
-        title="Work Experience"
+        title="Recent Study"
         ref={scrollRef}
         currentIndex={props.currentIndex}
       />
       <NavButton
         index={4}
-        title="Personal Experience"
+        title="Work Experience"
         ref={scrollRef}
         currentIndex={props.currentIndex}
       />
       <NavButton
         index={5}
+        title="Personal Experience"
+        ref={scrollRef}
+        currentIndex={props.currentIndex}
+      />
+      <NavButton
+        index={6}
         title="Award"
         ref={scrollRef}
         currentIndex={props.currentIndex}

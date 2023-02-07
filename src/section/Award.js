@@ -13,9 +13,16 @@ export const MapProject = (projects) =>
 
 function Award({ scrollRef }) {
   return (
-    <div ref={(cur) => (scrollRef.current[5] = cur)}>
+    <div ref={(cur) => (scrollRef.current[6] = cur)}>
       <SectionTitle>Award</SectionTitle>
       {MapProject(award)}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
