@@ -11,7 +11,7 @@ function Timeline({ scrollRef }) {
     })
     .then((text) => setProject(text));
   return (
-    <div ref={(cur) => (scrollRef.current[5] = cur)}>
+    <div ref={(cur) => (scrollRef.current[6] = cur)}>
       <SectionTitle>Timeline</SectionTitle>
       <MarkdownRenderer>{project}</MarkdownRenderer>
     </div>

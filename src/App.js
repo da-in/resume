@@ -12,11 +12,12 @@ import Contact from './section/Contact';
 import Skill from './section/Skill';
 import WorkExperience from './section/WorkExperience';
 import PersonalExperience from './section/PersonalExperience';
-import Timeline from './section/Timeline';
+// import Timeline from './section/Timeline';
 import Footer from './section/Footer';
 import { useRef } from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Award from './section/Award';
 
 function App() {
   const scrollRef = useRef([]);
@@ -52,7 +53,8 @@ function App() {
             <Skill scrollRef={scrollRef} />
             <WorkExperience scrollRef={scrollRef} />
             <PersonalExperience scrollRef={scrollRef} />
-            <Timeline scrollRef={scrollRef} />
+            <Award scrollRef={scrollRef} />
+            {/* <Timeline scrollRef={scrollRef} /> */}
           </MainSectionContainer>
         </MainContainer>
         <Footer />
