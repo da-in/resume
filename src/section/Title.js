@@ -22,7 +22,7 @@ const SignContainer = styled.div`
 `;
 
 // 속도
-const v = 0.7;
+const v = 0.4;
 
 const animation = keyframes`
   0% {
@@ -113,11 +113,11 @@ function Title({ scrollRef }) {
       }}
     >
       <TitleContainer>
-        <span>안녕하세요</span>
+        <span>" 안녕하세요</span>
         <SignContainer>
           <Sign />
         </SignContainer>
-        <span>입니다.</span>
+        <span>입니다. "</span>
       </TitleContainer>
     </div>
   );

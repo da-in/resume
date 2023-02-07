@@ -24,12 +24,12 @@ code {
 }
 
 table,
-th,
 td {
   text-align: left;
 }
 
 th {
+  text-align: left;
   font-weight: 500;
   width: 100px;
 }
@@ -42,11 +42,12 @@ td {
 }
 
 mark {
-  background-color: #f0f0f0;
+  background-color: #efefef;
 }
 
 p {
   margin: 0%;
+  line-height: 25px;
 }
 
 a {
