@@ -1,4 +1,4 @@
-# Dain's Portfolio
+# Resume
 
 **Framework(Library)** React
 - 빈응형 웹으로 모바일 지원
