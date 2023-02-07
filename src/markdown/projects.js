@@ -18,20 +18,27 @@ export const work = [
 export const personal = [
   {
     id: 1,
-    title: '포트폴리오',
-    date: '2022.09.28 - 2022.10.05',
-    md: require('../markdown/project/portfolio.md'),
-    tag: ['Javascript', 'React', 'Webpack', 'GitPages'],
+    title: '흑끼의 마법떡집',
+    date: '2022.12.18 - 2022.12.25',
+    md: require('../markdown/project/blackrabbit.md'),
+    tag: ['Typescript', 'React', 'Github Pages', 'Workflows'],
   },
   {
     id: 2,
-    title: 'Likelion Apply Crawler',
-    date: '2021.04',
-    md: require('../markdown/project/likelionCrawler.md'),
-    tag: ['Python', 'selenium'],
+    title: '초성편지',
+    date: '2022.09.28 - 2022.10.05',
+    md: require('../markdown/project/csletter.md'),
+    tag: ['Typescript', 'React', 'AWS S3', 'AWS Cloud Front'],
   },
   {
     id: 3,
+    title: 'Likelion Apply Crawler',
+    date: '2021.04',
+    md: require('../markdown/project/likelionCrawler.md'),
+    tag: ['Python', 'Selenium'],
+  },
+  {
+    id: 4,
     title: '멋쟁이사자처럼',
     date: '2020.10 - 2022.12',
     md: require('../markdown/project/likelion.md'),
@@ -39,7 +46,7 @@ export const personal = [
     img: require('../assets/likelion.png'),
   },
   {
-    id: 4,
+    id: 5,
     title: '광주인공지능사관학교',
     date: '2020.05 - 2020.12',
     md: require('../markdown/project/aischool.md'),
@@ -47,7 +54,7 @@ export const personal = [
     img: require('../assets/aischool.png'),
   },
   {
-    id: 5,
+    id: 6,
     title: '코띵한 와사비',
     date: '2020.12 - 2022',
     md: require('../markdown/project/wasabi.md'),

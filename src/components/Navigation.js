@@ -5,7 +5,7 @@ import NavButton from './NavButton';
 const NavContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   width: 230px;
   position: fixed;
   top: 50px;
