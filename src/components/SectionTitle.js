@@ -3,7 +3,7 @@ import theme from '../assets/theme';
 import styled from 'styled-components';
 
 const Title = styled.div`
-  padding: 40px 0px 20px 0px;
+  padding: 50px 0px 10px 0px;
   font-size: ${theme.font.big};
   font-weight: 500;
 `;

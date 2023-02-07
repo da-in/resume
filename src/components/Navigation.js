@@ -6,7 +6,7 @@ const NavContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 180px;
+  width: 230px;
   position: fixed;
   top: 50px;
   @media (max-width: 768px) {
@@ -37,12 +37,18 @@ const Navigation = forwardRef((props, scrollRef) => {
       />
       <NavButton
         index={3}
-        title="Project"
+        title="Work Experience"
         ref={scrollRef}
         currentIndex={props.currentIndex}
       />
       <NavButton
         index={4}
+        title="Personal Experience"
+        ref={scrollRef}
+        currentIndex={props.currentIndex}
+      />
+      <NavButton
+        index={5}
         title="Timeline"
         ref={scrollRef}
         currentIndex={props.currentIndex}
