@@ -10,7 +10,8 @@ import Title from './section/Title';
 import Intro from './section/Intro';
 import Contact from './section/Contact';
 import Skill from './section/Skill';
-import Project from './section/Project';
+import WorkExperience from './section/WorkExperience';
+import PersonalExperience from './section/PersonalExperience';
 import Timeline from './section/Timeline';
 import Footer from './section/Footer';
 import { useRef } from 'react';
@@ -49,7 +50,8 @@ function App() {
             <Intro />
             <Contact scrollRef={scrollRef} />
             <Skill scrollRef={scrollRef} />
-            <Project scrollRef={scrollRef} />
+            <WorkExperience scrollRef={scrollRef} />
+            <PersonalExperience scrollRef={scrollRef} />
             <Timeline scrollRef={scrollRef} />
           </MainSectionContainer>
         </MainContainer>
