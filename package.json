@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://da-in.github.io/portfolio",
+  "homepage": "http://da-in.github.io/resume",
   "eslintConfig": {
     "extends": [
       "react-app",
