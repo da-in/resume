@@ -10,9 +10,15 @@ function Contact({ scrollRef }) {
         }
       }}
     >
-      <SectionTitle>Contact</SectionTitle>
+      <SectionTitle>최다인(Choi da-in)</SectionTitle>
       <table>
         <tbody>
+          <tr>
+            <th>Phone</th>
+            <td>
+              <span>010-6611-5291</span>
+            </td>
+          </tr>
           <tr>
             <th>Email</th>
             <td>
@@ -39,6 +45,48 @@ function Contact({ scrollRef }) {
                     </a>
                 </td>
             </tr> */}
+        </tbody>
+      </table>
+      <br />
+      <SectionTitle>학력 사항</SectionTitle>
+      <table>
+        <tbody>
+          <tr>
+            <th>대학교</th>
+            <td>
+              <span>숭실대학교 (서울) / 본교</span>
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <span>2017.03 입학 ~ 2023.02.17 졸업예정</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <SectionTitle>외국어 능력 및 해외 경험</SectionTitle>
+      <table>
+        <tbody>
+          <tr>
+            <th>영어</th>
+            <td>
+              <span>OPIc IM2 (2022.06.15 취득)</span>
+            </td>
+          </tr>
+          <tr>
+            <th>해외 경험</th>
+            <td>
+              <span>숭실대학교 동계 인도 해외봉사단 Support Staff</span>
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <span>숭실대학교 동계 인도 해외봉사단 Support Staff</span>
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>

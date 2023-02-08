@@ -49,7 +49,7 @@ const StyledSignSVG = styled.svg`
   stroke-miterlimit: 10;
   stroke-width: 10px;
   stroke-dasharray: 450;
-  stroke-dashoffset: 450;
+  /* stroke-dashoffset: 450;
   path:nth-child(1) {
     animation: ${animation} ${16 * v}s linear infinite;
     animation-delay: ${0 * v}s;
@@ -81,7 +81,7 @@ const StyledSignSVG = styled.svg`
   path:nth-child(8) {
     animation: ${animation} ${16 * v}s linear infinite;
     animation-delay: ${7 * v}s;
-  }
+  } */
 `;
 
 function Sign() {

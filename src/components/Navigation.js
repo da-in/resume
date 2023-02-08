@@ -3,15 +3,16 @@ import styled from 'styled-components';
 import NavButton from './NavButton';
 
 const NavContainer = styled.div`
-  display: flex;
+  /* display: flex; */
+  display: none;
   flex-direction: column;
   gap: 5px;
   width: 230px;
   position: fixed;
   top: 50px;
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     display: none;
-  }
+  } */
 `;
 
 const Navigation = forwardRef((props, scrollRef) => {
