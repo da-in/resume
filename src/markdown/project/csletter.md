@@ -5,5 +5,5 @@
 - 피드백을 수집하고 1주일 간 빠르게 업데이트 및 런칭하여 좋은 반응을 얻었습니다.
 - 약 200명이 가입해 서비스를 이용했습니다.
 
-✉️ _서버 비용 문제로 제공 중단하였으며, 빠른 시일 내에 재오픈 예정입니다._  
+✉️ [초성편지 (모바일 웹)](https://chosung-letter.com/)
 🔗 [Github Repository](https://github.com/roundshoulder/cs-letter-frontend)
