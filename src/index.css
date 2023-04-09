@@ -38,7 +38,8 @@ td {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 mark {
