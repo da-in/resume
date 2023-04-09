@@ -1,5 +1,22 @@
 export const work = [
   {
+    id: 0,
+    title: '콘텐츠 웨이브',
+    date: '2022.03.06 - 2022.05.11',
+    md: require('../markdown/project/wavve.md'),
+    tag: [
+      'Vue',
+      'Typescript',
+      'Pinia',
+      'TDD',
+      'Vue Query',
+      'UnoCSS',
+      'Storybook',
+      'SSR',
+    ],
+    img: require('../assets/wavve.png'),
+  },
+  {
     id: 1,
     title: '더풀네트워크',
     date: '2022.06.15 - 2022.09.13',
