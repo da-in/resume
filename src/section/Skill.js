@@ -11,15 +11,16 @@ function Skill({ scrollRef }) {
           <tr>
             <th>Language</th>
             <td>
+              <Tag>Typescript</Tag>
               <Tag>Javascript</Tag>
               <Tag>Python</Tag>
-              <Tag>Typescript</Tag>
             </td>
           </tr>
           <tr>
             <th>Frontend</th>
             <td>
               <Tag>React</Tag>
+              <Tag>Vue</Tag>
               <Tag>React Native</Tag>
               <Tag>HTML</Tag>
               <Tag>CSS</Tag>
@@ -30,6 +31,8 @@ function Skill({ scrollRef }) {
             <td>
               <Tag>Emotion</Tag>
               <Tag>Styled Components</Tag>
+              <Tag>Tailwind CSS</Tag>
+              <Tag>Uno CSS</Tag>
             </td>
           </tr>
           <tr>
@@ -47,6 +50,8 @@ function Skill({ scrollRef }) {
             <th>Tools</th>
             <td>
               <Tag>Git</Tag>
+              <Tag>GitLab</Tag>
+              <Tag>Jira</Tag>
               <Tag>Asana</Tag>
               <Tag>Slack</Tag>
             </td>

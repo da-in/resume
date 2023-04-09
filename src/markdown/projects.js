@@ -1,5 +1,22 @@
 export const work = [
   {
+    id: 0,
+    title: '콘텐츠 웨이브',
+    date: '2022.03.06 - 2022.05.11',
+    md: require('../markdown/project/wavve.md'),
+    tag: [
+      'Vue',
+      'Typescript',
+      'Pinia',
+      'TDD',
+      'Vue Query',
+      'UnoCSS',
+      'Storybook',
+      'SSR',
+    ],
+    img: require('../assets/wavve.png'),
+  },
+  {
     id: 1,
     title: '더풀네트워크',
     date: '2022.06.15 - 2022.09.13',
@@ -16,6 +33,13 @@ export const work = [
   },
 ];
 export const personal = [
+  {
+    id: 0,
+    title: 'Simple Thumbnail',
+    date: '2023.02.22 - 2023.02.27',
+    md: require('../markdown/project/simpleThumbnail.md'),
+    tag: ['React', 'Typescript', 'Tailwind CSS', 'BDD'],
+  },
   {
     id: 1,
     title: '흑끼의 마법떡집',

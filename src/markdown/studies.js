@@ -1,7 +1,11 @@
 export const studies = [
   {
-    id: 1,
+    id: 0,
     repo: 'da-in/tech-interview-study',
+  },
+  {
+    id: 1,
+    repo: 'roy-jung/react.dev.ko',
   },
   {
     id: 2,
