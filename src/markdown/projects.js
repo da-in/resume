@@ -2,7 +2,7 @@ export const work = [
   {
     id: 0,
     title: '콘텐츠 웨이브',
-    date: '2022.03.06 - 2022.05.11',
+    date: '2022.03.06 - 현재',
     md: require('../markdown/project/wavve.md'),
     tag: [
       'Vue',
