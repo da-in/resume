@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.9bdbe386.css",
-    "main.js": "/resume/static/js/main.2febbf75.js",
+    "main.js": "/resume/static/js/main.1555203c.js",
     "static/js/787.1ed0c42c.chunk.js": "/resume/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.png": "/resume/static/media/profile.241c0370b084c6e3f231.png",
     "static/media/aischool.png": "/resume/static/media/aischool.d3f6ca3d3d816a283d05.png",
     "static/media/wasabi.png": "/resume/static/media/wasabi.819a8b1098fe4d2ef2c8.png",
     "static/media/likelion.png": "/resume/static/media/likelion.903918cee9658874b5f4.png",
+    "static/media/teoconf.webp": "/resume/static/media/teoconf.96b44910e35f12ace207.webp",
     "static/media/aischool.md": "/resume/static/media/aischool.2519c2b33dd4f16139ae.md",
     "index.html": "/resume/index.html",
     "static/media/csletter.md": "/resume/static/media/csletter.52918b92977d13891ea7.md",
@@ -17,12 +18,13 @@
     "static/media/likelionCrawler.md": "/resume/static/media/likelionCrawler.2920e1b5255f25d7be10.md",
     "static/media/wavve.md": "/resume/static/media/wavve.1ed44786a211db3fd332.md",
     "static/media/simpleThumbnail.md": "/resume/static/media/simpleThumbnail.c005647aabb5be31c6d1.md",
+    "static/media/teoconf.md": "/resume/static/media/teoconf.0387b31d03e149e8493e.md",
     "main.9bdbe386.css.map": "/resume/static/css/main.9bdbe386.css.map",
-    "main.2febbf75.js.map": "/resume/static/js/main.2febbf75.js.map",
+    "main.1555203c.js.map": "/resume/static/js/main.1555203c.js.map",
     "787.1ed0c42c.chunk.js.map": "/resume/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bdbe386.css",
-    "static/js/main.2febbf75.js"
+    "static/js/main.1555203c.js"
   ]
 }
