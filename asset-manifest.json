@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.9bdbe386.css",
-    "main.js": "/resume/static/js/main.1555203c.js",
+    "main.js": "/resume/static/js/main.df70ba56.js",
     "static/js/787.1ed0c42c.chunk.js": "/resume/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.png": "/resume/static/media/profile.241c0370b084c6e3f231.png",
     "static/media/aischool.png": "/resume/static/media/aischool.d3f6ca3d3d816a283d05.png",
@@ -15,16 +15,16 @@
     "static/media/likelion.md": "/resume/static/media/likelion.e6bf02d9f481751fd8ef.md",
     "static/media/pool.md": "/resume/static/media/pool.11dd0eaac4ed1a7fbe87.md",
     "static/media/wasabi.md": "/resume/static/media/wasabi.2f36b401785eecf16f2f.md",
+    "static/media/wavve.md": "/resume/static/media/wavve.5c3c0312ae9e708e97fc.md",
     "static/media/likelionCrawler.md": "/resume/static/media/likelionCrawler.2920e1b5255f25d7be10.md",
-    "static/media/wavve.md": "/resume/static/media/wavve.1ed44786a211db3fd332.md",
     "static/media/simpleThumbnail.md": "/resume/static/media/simpleThumbnail.c005647aabb5be31c6d1.md",
     "static/media/teoconf.md": "/resume/static/media/teoconf.0387b31d03e149e8493e.md",
     "main.9bdbe386.css.map": "/resume/static/css/main.9bdbe386.css.map",
-    "main.1555203c.js.map": "/resume/static/js/main.1555203c.js.map",
+    "main.df70ba56.js.map": "/resume/static/js/main.df70ba56.js.map",
     "787.1ed0c42c.chunk.js.map": "/resume/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bdbe386.css",
-    "static/js/main.1555203c.js"
+    "static/js/main.df70ba56.js"
   ]
 }
