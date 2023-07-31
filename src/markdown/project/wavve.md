@@ -1,4 +1,10 @@
-2023 Wavve Tech Internship 입사
+**Device Domain**
+
+- <mark>스마트TV 내재화 및 개발효율화</mark>
+  - 스마트TV 웹 개발
+  - 공용 로직 및 컴포넌트 개발을 통한 개발 효율화
+
+**2023 Wavve Tech Internship**
 
 - <mark>프로젝트 Play Reaction</makr>
   - 실시간 시청자 감정표현 공유 프로젝트

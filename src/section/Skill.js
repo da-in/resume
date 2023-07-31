@@ -36,6 +36,13 @@ function Skill({ scrollRef }) {
             </td>
           </tr>
           <tr>
+            <th>Test</th>
+            <td>
+              <Tag>Jest</Tag>
+              <Tag>Vitest</Tag>
+            </td>
+          </tr>
+          <tr>
             <th>UI Design</th>
             <td>
               <Tag>Figma</Tag>
