@@ -1,6 +1,6 @@
 {
-  "name": "Dain's Portfolio",
-  "short_name": "Dain",
+  "name": "최다인 이력서",
+  "short_name": "Dain Resume",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +19,7 @@
     }
   ],
   "start_url": ".",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone"
 }
