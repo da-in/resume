@@ -140,6 +140,14 @@ export const activities: Activity[] = [
       '17기까지는 FigJam으로 단계 가이드를 정리해 참가자가 스프린트를 따라가게 했고, 최근 기수에서는 단계별 의도를 문서로 고정한 템플릿을 공개해 에이전트와 함께 진행하는 형식을 시도했습니다.',
     ],
   },
+  {
+    title: 'Speaking · Judging',
+    meta: '2026',
+    bullets: [
+      'KUSITMS 33기 전문가 초청 강연: AI 시대의 프론트엔드 생존을 넘어 진화로 (2026.03)',
+      'HE:RETHON(여기톤) 해커톤 심사위원 (2026.07)',
+    ],
+  },
 ];
 
 export const awards: Award[] = [
