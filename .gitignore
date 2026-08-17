@@ -1,4 +1,8 @@
 .DS_Store
 .env
 .env.*
-docs/career-evidence/
+docs/
+node_modules
+dist
+*.local
+.vite
